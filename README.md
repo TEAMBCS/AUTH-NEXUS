@@ -134,7 +134,7 @@ cd AUTH-NEXUS
 chmod +x *
 chmod 777 *
 pip install -r auth-nexus.txt
-python auth-nexus.py
+python3 auth-nexus.py
 ```
 
 ---
