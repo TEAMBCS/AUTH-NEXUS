@@ -1,0 +1,15 @@
+AboutScreen { align: center middle; }
+#about-container {
+    width: 90%; height: 85%;
+    border: thick rgb(0,255,255);
+    background: $surface; padding: 1 2;
+    border-title-color: rgb(0,255,255);
+}
+Static { height: auto; }
+.header {
+    content-align: center middle;
+    text-style: bold;
+    color: rgb(255,0,255);
+    margin-bottom: 1;
+    text-style: bold underline;
+}

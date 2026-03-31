@@ -1,0 +1,20 @@
+#input-screen VerticalScroll {
+    height: 1fr;
+    border: solid rgb(0,255,255);
+    padding: 1;
+    background: $surface;
+}
+#input-screen Horizontal { height: auto; margin-bottom: 1; }
+#input-screen Input { margin: 0 1; width: 1fr; border: tall rgb(200,0,50); }
+#input-screen Input:focus { border: tall rgb(0,255,0); }
+#input-screen Label { margin: 1 0 0 1; color: rgb(230,255,0); text-style: bold; }
+#input-screen Select { margin: 0 1; width: 1fr; }
+#button_container Button { width: 1fr; margin: 0 1; }
+.section-title {
+    color: rgb(255,255,0);
+    text-style: bold;
+    background: $boost;
+    padding: 0 1;
+    margin: 1 0;
+}
+
