@@ -291,9 +291,12 @@ extracts possible authentication parameters such as:
 • token parameters  
 • login form inputs  
 
-This helps speed up authentication testing without requiring 
+ This helps speed up authentication testing without requiring 
 manual parameter configuration.
+
+
 ---
+
 
 ## 🎯 Success & Failure Detection (Regex Support)
 
