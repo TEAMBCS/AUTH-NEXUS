@@ -291,8 +291,53 @@ extracts possible authentication parameters such as:
 • token parameters  
 • login form inputs  
 
-This helps speed up authentication testing without requiring 
+ This helps speed up authentication testing without requiring 
 manual parameter configuration.
+
+
+---
+
+
+## 🎯 Success & Failure Detection (Regex Support)
+
+Auth Nexus allows advanced success and failure detection using:
+
+• HTTP status code  
+• Response text matching  
+• Regular expressions (Regex)
+
+This helps the engine accurately detect whether an authentication attempt succeeded or failed.
+
+---
+
+### ✔️ Success Matching Examples
+
+You can define success indicators using plain text or regex.
+
+Examples: ```"status"\s*:\s*"success",
+Login successful\. Redirecting,
+(?i)(logout|dashboard|welcome)```
+
+---
+
+### ❌ Failure Matching Examples
+
+Define failure patterns to improve accuracy.
+
+Examples: ```(?i)(error|wrong|incorrect),
+(?i)invalid```
+
+---
+
+### 🧠 How It Works
+
+• Success patterns are checked first  
+• Failure patterns override success when matched  
+• Case-insensitive matching supported with `(?i)`  
+• Supports both plain text and regex patterns  
+
+This system improves detection accuracy for complex authentication responses.
+
 ---
 
 # 📊 Tool Architecture
