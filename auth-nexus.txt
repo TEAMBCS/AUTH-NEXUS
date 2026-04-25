@@ -9,3 +9,4 @@ asyncssh
 uvloop
 urllib3
 pyOpenSSL
+pycryptodome

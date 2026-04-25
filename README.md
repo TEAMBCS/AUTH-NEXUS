@@ -26,7 +26,7 @@ A professional multi-protocol brute force attack testing tool built for security
 ![urllib3](https://img.shields.io/badge/urllib3-http%20client-lightgrey)
 ![pyOpenSSL](https://img.shields.io/badge/pyOpenSSL-ssl%20support-blue)
 ![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
-![Version](https://img.shields.io/badge/Version-1.0%20-yellow)
+![Version](https://img.shields.io/badge/Version-2.0%20-yellow)
 
 ---
 
@@ -127,6 +127,10 @@ Modern terminal interface with:
 
 ```bash
 pkg update && pkg upgrade
+pkg install clang libxml2 libxslt libiconv -y
+pkg install binutils rust build-essential -y
+pkg install python-lxml -y
+pkg install python-cryptography -y
 pkg install python3 -y
 pkg install git -y
 git clone https://github.com/BLACK-ZER-0/AUTH-NEXUS.git
@@ -138,6 +142,99 @@ python3 auth-nexus.py
 ```
 
 ---
+
+
+
+# ⚒️ WordForge – Advanced Wordlist Generator
+
+**WordForge** is a powerful built-in wordlist generator designed for creating custom password lists with high flexibility and performance. It allows you to generate targeted wordlists based on specific character sets and length ranges.
+
+---
+
+### 🔥 Features
+
+- 🔤 Custom Character Set (A-Z, a-z, 0-9, symbols or custom input)
+- 📏 Adjustable Length Range (min → max)
+- 📊 Real-time Combination & Size Estimation
+- 🚀 High-Speed Async Generation Engine
+- 💾 Auto-save to `list/<filename>.txt`
+- ⏹ Stop Generation Anytime
+- 🔄 Auto Integration with Main Tool (User/Pass List)
+
+---
+
+### ⚙️ How It Works
+
+1. Open **WordForge** from the main menu.
+2. Enter your desired **character set**.
+3. Set **minimum and maximum length**.
+4. Click **Calculate** to estimate:
+   - Total combinations
+   - File size
+5. Click **Generate** to start creating the wordlist.
+
+---
+
+### 🧠 Example
+
+```text
+Charset: abc123
+Length: 1 → 3
+````
+
+Generated output:
+
+```
+a
+b
+c
+1
+2
+3
+aa
+ab
+ac
+...
+```
+
+---
+
+### ⚠️ Important Notes
+
+* Large charset + high length = **huge file size**
+* Avoid generating more than **100M+ combinations** unless आवश्यक
+* Storage and time consumption may increase significantly
+
+---
+
+### 📂 Output Location
+
+```
+list/<your_filename>.txt
+```
+
+---
+
+### 🔗 Quick Actions
+
+After generation, you can:
+
+* 🔑 Use as Password List
+* 👤 Use as Username List
+* 🔑👤 Use for Both
+
+---
+
+### 💡 Pro Tip
+
+Use smaller, targeted wordlists for better performance instead of massive random lists.
+
+---
+
+> ⚡ WordForge is optimized for speed, stability, and seamless integration with the attack engine.
+
+---
+
 
 # 🧠 Supported Attack Modes
 
@@ -362,6 +459,14 @@ Auth Nexus
 │   ├── Pitchfork
 │   └── Battering Ram
 │
+├── WordForge ⚒️
+│   ├── Custom Charset Builder
+│   ├── Length Range Control
+│   ├── Combination Estimation
+│   ├── High-Speed Generator
+│   ├── File Output (list/)
+│   └── Auto Integration (User/Pass List)
+│
 ├── Networking
 │   ├── Async Requests
 │   ├── Proxy Support
@@ -372,6 +477,7 @@ Auth Nexus
     ├── Live Logs
     ├── Progress Tracking
     └── Results Display
+
 ```
 
 ---
@@ -401,11 +507,13 @@ AUTH-NEXUS
 ├── README.md
 │
 ├── Image
-|   ├── tool-img-1.png #Tool Image 
-|   ├── tool-img-2.png #Tool Image
+|   ├──  auth-nexus-v2.0-2.jpg #Tool Image 
+|   ├── auth-nexus-v2.0-1.jpg #Tool image 
+|   ├── auth-nexus-v2.0-3.jpg #wordforge image
 │   └── auth-nexus-logo.png #logo image
 │
 ├── AUTH-NEXUS-CSS
+|   ├── WordForgeScreen.css #wordforge css
 |   ├── UI.css #main UI css
 |   ├── about.css #about info css
 │   ├── attack-ui.css #attack panel ui css
@@ -419,15 +527,29 @@ AUTH-NEXUS
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TEAMBCS/AUTH-NEXUS/main/Image/tool-img-1.png" width="45%" alt="Screenshot 1">
+  <img src="https://raw.githubusercontent.com/TEAMBCS/AUTH-NEXUS/main/Image/auth-nexus-v2.0-1.jpg" width="45%" alt="Screenshot 1">
   &nbsp;&nbsp;
-   <img src="https://raw.githubusercontent.com/TEAMBCS/AUTH-NEXUS/main/Image/tool-img-2.png" width="45%" alt="Screenshot 2">
+   <img src="https://raw.githubusercontent.com/TEAMBCS/AUTH-NEXUS/main/Image/auth-nexus-v2.0-2.jpg" width="45%" alt="Screenshot 2">
   &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/TEAMBCS/AUTH-NEXUS/main/Image/auth-nexus-v2.0-3.jpg" width="45%" alt="Screenshot 1">
 
 
 </p>
 
 ---
+
+## 📃 Note
+
+**Edit CSS Code as your wish.**
+
+**If you found textual library install problem in kali linux machines or debian machines**
+- use
+```
+pip install textual --break-system-packages --ignore-installed pygments
+```
+
+---
+
 
 # 🛡 Security Notice
 
@@ -474,4 +596,3 @@ Stay ethical.
 ```
 
 ---
-
