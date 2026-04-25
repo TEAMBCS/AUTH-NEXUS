@@ -1,0 +1,72 @@
+WordForgeScreen {
+    align: center middle;
+}
+
+#wordforge-container {
+    width: 90%; 
+    max-height: 85%;    
+    border: thick rgb(79, 200, 150);
+    background: $surface; 
+    padding: 1 2;
+    border-title-color: rgb(90, 255, 25);
+    layout: vertical;
+}
+
+#wordforge-container VerticalScroll {
+    height: 1fr;
+    min-height: 15;     
+}
+
+.header {
+    content-align: center middle;
+    text-style: bold underline;
+    color: rgb(0, 255, 255);
+    margin-bottom: 1;
+}
+
+.stitle {
+    text-style: bold;
+    color: rgb(230, 200, 255);
+    background: $boost;
+    padding: 0 1;
+    margin-top: 1;
+    margin-bottom: 0;
+}
+
+Input {
+    border: tall rgb(120, 255, 150);
+}
+
+Input:focus {
+    border: tall rgb(120, 79, 255);
+}
+
+Button {
+    margin-right: 1;
+    width: 1fr;
+}
+
+.cs-btns Button {
+    margin-top: 1;
+    width: 1fr;
+}
+
+#d_log {
+    height: 10;         
+    border: tall rgb(255, 165, 0);
+}
+
+#d-use-row {
+    height: auto;
+    margin-top: 1;
+    padding-top: 1;
+    border-top: tall rgb(0, 255, 255);
+}
+
+Horizontal {
+    height: auto;
+}
+
+.d-hide { 
+    display: none; 
+}
