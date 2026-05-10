@@ -26,7 +26,7 @@ A professional multi-protocol brute force attack testing tool built for security
 ![urllib3](https://img.shields.io/badge/urllib3-http%20client-lightgrey)
 ![pyOpenSSL](https://img.shields.io/badge/pyOpenSSL-ssl%20support-blue)
 ![License](https://img.shields.io/badge/license-GPLv3-blue.svg)
-![Version](https://img.shields.io/badge/Version-2.0%20-yellow)
+![Version](https://img.shields.io/badge/Version-2.1%20-yellow)
 
 ---
 
