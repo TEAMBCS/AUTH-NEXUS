@@ -546,6 +546,11 @@ AUTH-NEXUS
 ```
 pip install textual --break-system-packages --ignore-installed pygments
 ```
+**If you found any problem to install `cryptography Library` in Termux**
+- use
+```
+ export ANDROID_API_LEVEL=24
+```
 
 ---
 
