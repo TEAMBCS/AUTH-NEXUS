@@ -527,9 +527,9 @@ AUTH-NEXUS
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TEAMBCS/AUTH-NEXUS/main/Image/Img_v2.1-ui.jpg" width="45%" alt="Screenshot 1">
+  <img src="https://raw.githubusercontent.com/TEAMBCS/AUTH-NEXUS/main/Image/Img_v2.1-atui.jpg" width="45%" alt="Screenshot 1">
   &nbsp;&nbsp;
-   <img src="https://raw.githubusercontent.com/TEAMBCS/AUTH-NEXUS/main/Image/img_v2.1-atui.jpg" width="45%" alt="Screenshot 2">
+   <img src="https://raw.githubusercontent.com/TEAMBCS/AUTH-NEXUS/main/Image/img_v2.1-ui.jpg" width="45%" alt="Screenshot 2">
   &nbsp;&nbsp;
   <img src="https://raw.githubusercontent.com/TEAMBCS/AUTH-NEXUS/main/Image/Img_v2.1-word_f.jpg" width="45%" alt="Screenshot 1">
 
