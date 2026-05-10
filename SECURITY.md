@@ -6,7 +6,8 @@ The following versions of Auth Nexus currently receive security updates.
 
 | Version | Supported |
 |--------|-----------|
-| 2.0 | ✅ Supported |
+| 2.1 | ✅ Supported |
+| 2.0 | 🔴 Have Critical bugs|
 | <2.0 | ❌ Not Supported |
 | 1.0 | Back Dated version|
 
