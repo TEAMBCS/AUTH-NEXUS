@@ -133,7 +133,7 @@ pkg install python-lxml -y
 pkg install python-cryptography -y
 pkg install python3 -y
 pkg install git -y
-git clone https://github.com/TEAMBCS/AUTH-NEXUS.git
+git clone https://github.com/BLACK-ZER-0/AUTH-NEXUS.git
 cd AUTH-NEXUS
 chmod +x *
 chmod 777 *
